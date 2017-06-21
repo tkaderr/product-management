@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 //path
 var path = require("path");
-app.use(express.static(path.join(__dirname, '/product-management/dist')));
+app.use(express.static(path.join(__dirname, './product-management/dist')));
 
 //routes
 
